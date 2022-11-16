@@ -46,6 +46,7 @@ c = float(input('Пожалуйста введите третье число: ')
 #     main()
 
 
+
 max = max(a, b, c)
 
 if (a > 10 and b > 10 and c > 10) and ( a % 3 == 0 and b % 3 == 0): print (' Yes - Homework 3.1\n',max, '- Homework 3.2')
