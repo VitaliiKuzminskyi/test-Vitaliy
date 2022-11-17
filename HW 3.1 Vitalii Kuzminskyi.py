@@ -21,7 +21,7 @@ while True:
         print('Ввод символов кроме цифр ЗАПРЕЩЁН, введите третье число: ')
 
 max = max(a, b, c)
-# z = int(max)
+
 if (a > 10 and b > 10 and c > 10) and ( a % 3 == 0 and b % 3 == 0): print (' Yes - Homework 3.1\n',max, '- Homework 3.2')
 
 else: print(' No - Homework 3.1\n', max, '- Homework 3.2')
