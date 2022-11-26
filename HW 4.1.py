@@ -1,29 +1,34 @@
-
-# base_size = input('Enter triangle\'s base size (2-10): ')
-# if base_size.isdigit() and 2<=base_size<=10:
-#     n=int(base_size)
-#     print(n)
+base = input('Введите размер основания треугольника от 2 до 10: ')
+if base.isdigit() and len(base) == 1:
+    base = int(base)
+    if ( 1 < base, base < 10):
+         print(f'Ширина = {base}')
+    else:
+        print('Ошибка')
+#     # print(number[::-1])
 #
+#     first_digit = number // 100  # 1
+#     second_digit = number % 100 // 10  # 2
+#     third_digit = number % 10  # 3
+#
+#     reversed_number = third_digit * 100 + second_digit * 10 + first_digit
+#     print(reversed_number)
 # else:
-#     input('Pleace use only didgists input (2-10): ')
-
-base_number = int
-base_number = input('Enter triangle\'s base size (2-10): ')
-while base_number.isdigit():
-    n=int(base_number)
-    if 2<=n<=10: print(f'Ok Base = {n}')
-    break
-
-else:
-        input('Pleace use only didgists input (2-10): ')
+#     print('Error')
 
 
-# base_size = int
+
+
+
+
 # while True:
 #     try:
-#         int(input(base_size := 'Enter triangle\'s base size (2-10): '))
+#         base = int(input('Введите размер основания треугольника от 2 до 10: ') and len(base) ==2)
 #         break
 #     except:
-#         print('WARNING!!! Only didgits input!')
+#         print('Ошибка!!! Ввод только цифр от 2 до 10')
 #
-# if (1 < base_size < 11): print('Ok')
+#
+#
+# else:
+#     print('No ')
