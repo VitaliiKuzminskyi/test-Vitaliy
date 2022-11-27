@@ -2,4 +2,4 @@
 ## HW 3 - working witg Git
 Creating repositoriy
 
-Test 1 = Clone project to laptop
+HW 1, 2, 3, 4 Done
