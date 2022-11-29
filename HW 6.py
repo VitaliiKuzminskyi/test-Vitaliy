@@ -18,6 +18,7 @@ print(f'{text2_1}')
 print(f'{text2_2}')
 print(f'{b}')
 
+
 if not text2_1.find(text2_2) == False \
     and text2_1.find(a+text2_2[0:]) != False\
         or text2_1.startswith(b) == True\
