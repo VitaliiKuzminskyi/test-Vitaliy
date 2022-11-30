@@ -5,7 +5,7 @@
 # while True:
 #     try:
 #         for i in range(0, n):
-#             number = int(input(f'Введите {i + 1} число из {n}: '))
+#             number = float(input(f'Введите {i + 1} число из {n}: '))
 #             numbers.append(number)
 #         break
 #     except:
@@ -28,7 +28,7 @@
 # while True:
 #     try:
 #         for i in range(0, a):
-#             number = int(input(f'Введите {i + 1} число из {a}: '))
+#             number = float(input(f'Введите {i + 1} число из {a}: '))
 #             numbers.append(number)
 #         break
 #     except:
@@ -37,7 +37,7 @@
 #
 # while True:
 #     try:
-#         n = int(input('Введите искомое число: '))
+#         n = float(input('Введите искомое число: '))
 #         break
 #     except:
 #         print(f'Искомое число должно состоять из цифр: ')
@@ -57,7 +57,7 @@
 # while True:
 #     try:
 #         for i in range(0, n):
-#             number = int(input(f'Введите {i + 1} число из {n}: '))
+#             number = float(input(f'Введите {i + 1} число из {n}: '))
 #             numbers.append(number)
 #         break
 #     except:
@@ -67,4 +67,41 @@
 # print(f'Result HW 7.4. Ваши числа в обратном порядке: {numbers} \n')
 
                                                          # HW 7.5
+# print('HW 7.5')
+# numbers = []
+# n = 5
+# while True:
+#     try:
+#         for i in range(0, n):
+#             number = float(input(f'Введите {i + 1} число из {n}: '))
+#             numbers.append(number)
+#
+#         break
+#     except:
+#         print(f'Ввод символов кроме цифр ЗАПРЕЩЁН!!! Введите {i + 1} число из {n}: ')
+#         numbers.clear()
+# c = []
+# for i in numbers:
+#     if i > 5:
+#         c.append(i)
+# print(f'Result HW 7.5:Числа > 5 в списке C: {c} \n')
 
+                                                         # HW 7.6
+print('HW 7.6')
+numbers = []
+n = 5
+while True:
+    try:
+        for i in range(0, n):
+            number = float(input(f'Введите {i + 1} число из {n}: '))
+            numbers.append(number)
+
+        break
+    except:
+        print(f'Ввод символов кроме цифр ЗАПРЕЩЁН!!! Введите {i + 1} число из {n}: ')
+        numbers.clear()
+c = []
+for i in numbers:
+    if i > 5:
+        c.append(i)
+print(f'Result HW 7.6:Числа > 5 в списке C: {c} \n')
