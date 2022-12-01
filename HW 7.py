@@ -152,3 +152,4 @@ for i in text7:
 n = len(numbers)
 
 print(f'Result HW 7.7: {n} \n')
+
