@@ -62,28 +62,12 @@
 #     file9_4.write(s + a)
 #
 #                                                          # HW9_5
-# print('HW 9.5')
+#
 # hw9_5 = open('HW9_5.txt', 'r')
 # text = hw9_5.read()
+# words = text.split()
+# print(f'HW 9.5 В тексте {len(words)} слов')
 #
-# words = []
-# numbers = []
-# for i in text:
-#     if i.isnumeric():
-#         if not numbers or not last_isnumeric:
-#             numbers.append(i)
-#         else:
-#             numbers[-1] += i
-#     else:
-#         if not words or last_isnumeric:
-#             words.append(i)
-#         else:
-#             words[-1] += i
-#     last_isnumeric = i.isnumeric()
-#
-# print(words)
-# print(len(words))
-
-
+#                                                          # HW9_6
 
 
