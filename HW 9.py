@@ -48,26 +48,22 @@
 # hw9_3.write(hw9_3_done)
 
 #                                                          # HW9_4
-
+#
 # print('HW 9.4')
 # import random
-# rec_numbers = []
+# numbers = []
+# file9_4 =  open('hw9_4_numbers.txt', 'w')
 # n = 100
 # a = '\n'
 # for i in range(n):
-#     f = random.randint(0, 200)
-#     rec_numbers.append(f)
-# print(rec_numbers)
-# with open('hw9_4_numbers.txt', 'w') as file:
-#     for j in rec_numbers:
-#         file.write(j + a)
-# print(rec_numbers)
+#     k = random.randint(0, 200)
+#     s = str(k)
+#     numbers.append(s)
+#     file9_4.write(s + a)
 #
 #                                                          # HW9_5
-
-
 # print('HW 9.5')
-# hw9_5 = open('hw9_5.txt', 'r')
+# hw9_5 = open('HW9_5.txt', 'r')
 # text = hw9_5.read()
 #
 # words = []
