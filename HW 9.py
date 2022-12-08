@@ -69,5 +69,19 @@
 # print(f'HW 9.5 В тексте {len(words)} слов')
 #
 #                                                          # HW9_6
+#
+# print('HW 9.6')
+# hw9_6 = open('HW9_6.txt', 'r')
+# text = hw9_6.read()
+# numbers = text.split()
+# num = []
+# for i in numbers:
+#     if i.isdigit():
+#         s = int(i)
+#         num.append(s)
+# print(sum(num))
 
-
+#                                                          # HW9_7
+print('HW 9.7')
+hw9_7 = open('HW9_7.txt', 'r')
+text = hw9_7.read()
