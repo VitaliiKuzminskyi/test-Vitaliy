@@ -82,6 +82,28 @@
 # print(sum(num))
 
 #                                                          # HW9_7
+'''
+Дан файл в котором записан текст, необходимо вывести топ 5 слов которые чаще всего повторяются, пример:
+в - 20 раз
+привет - 10 раз
+как - 9 раз
+у - 7
+world - 4
+'''
 print('HW 9.7')
-hw9_7 = open('HW9_7.txt', 'r')
+from collections import Counter
+hw9_7 = open('9_7.txt', 'r', encoding='utf-8')
 text = hw9_7.read()
+
+word_list = []
+
+for word in text.split():
+    clear_word = ''
+    for letter in word:
+        if letter.isalpha():
+            clear_word += letter.lower()
+    word_list.append(clear_word)
+print(Counter(word_list), '\n')
+print(*sorted(set(word_list), key=word_list.count, reverse=True)[:5], sep='\n')
+
+
