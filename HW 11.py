@@ -1,6 +1,6 @@
 
 counter = {}
-text = 'Function {} was called {} times.\n'
+text = 'Функция {} была вызвана {} раз.\n'
 def call_times(file_name):
     def inner(func):
         def wrapper():
