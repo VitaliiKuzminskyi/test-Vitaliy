@@ -1,0 +1,2 @@
+Function foo was called 5 times.
+Function boo was called 10 times.
