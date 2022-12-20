@@ -23,6 +23,7 @@ users = [
     }
 ]
 
+a
 
 for user in users:
     # print(user['name'], user['surname'], user['age'], user['phone'], user['adress'])
