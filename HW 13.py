@@ -19,7 +19,7 @@ class Human:
 
 
 
-
+m
 
 victor = Human('Victor', 'Popov', 31, '+38 067 961 08 45', 'm.Kharkiv, Sumska str. 12, app 14')
 olha = Human('Olha', 'Volk', 24, '+38 099 123 88 99', 'm.Zaporizsha, Stepana Bendery str. 118')
