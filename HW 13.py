@@ -14,7 +14,7 @@ class Human:
         pass
 
     def call(self):
-        print(f'{self.phone}')
+        print(f'{self.phone} вызывает абонента +38 123 12 34')
         pass
 
 victor = Human('Victor', 'Popov', 31, '+38 067 961 08 45', 'm.Kharkiv, Sumska str. 12, app 14')
@@ -28,4 +28,5 @@ alexey.get_info()
 
 victor.call()
 
+#########################################
 
